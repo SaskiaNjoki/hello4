@@ -2,13 +2,12 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/tvFirstName"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="text">
 
     <TextView
-        android:id="@+id/tvfirstName"
+        android:id="@+id/tvFirstName"
         android:layout_width="209dp"
         android:layout_height="39dp"
         android:hint="Enter your first name"
@@ -30,7 +29,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvfirstName"
+        app:layout_constraintTop_toBottomOf="@+id/tvFirstName"
         app:layout_constraintVertical_bias="0.901" />
 
     <EditText
@@ -70,7 +69,7 @@
         android:ems="10"
         android:hint="Enter your password"
         android:inputType="textPassword"
-        android:text="etPassword"
+        android:text="Enter password"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.527"
@@ -85,7 +84,7 @@
         android:ems="10"
         android:hint="Confirm Password"
         android:inputType="textPassword"
-        android:text="etPassword"
+        android:text="Confirm password"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.527"
